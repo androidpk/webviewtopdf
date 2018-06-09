@@ -29,7 +29,7 @@ public class PdfView {
      * @param directory directory path where pdf file will be saved
      * @param fileName  name of the pdf file.
      */
-    public static void printToPdf(Activity activity, WebView webView, String directory, String fileName, final Callback callback) {
+    public static void printToPdf(Activity activity, WebView webView, String directory, final Callback callback) {
 
         //check the marshmallow permission
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -119,6 +119,7 @@ public class PdfView {
         alert.show();
 
     }
+
 
     /**
      * callback interface to get the result back after created pdf file
