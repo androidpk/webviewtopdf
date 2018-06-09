@@ -1,5 +1,11 @@
 # webviewtopdf
 
-	dependencies {
-	        implementation 'com.github.androidpk:webviewtopdf:1.0.0'
-	}
+Add the following to your project level build.gradle:
+
+    allprojects {	
+        repositories {
+	        maven { url "https://jitpack.io" }
+        }
+    }
+
+	
